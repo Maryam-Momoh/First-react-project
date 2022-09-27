@@ -46,9 +46,9 @@ const Navbar = () => {
               <Link to="/products" className="nav-links" onCLick={closeMobileMenu}>Products</Link>
             </li>
 
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link to="/news-letter" className="nav-links" onCLick={closeMobileMenu}>News Letter</Link>
-            </li> */}
+            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>News Letter</Button>}
         </div>
